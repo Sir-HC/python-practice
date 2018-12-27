@@ -1,16 +1,10 @@
 #Create a program that asks the user for a number and then prints out a list of all the divisors of that number.
 
 import time
-#import pdb
 
 num = int(input('input a number: '))
-
-#pdb.set_trace()
 array = range(3, num, 2)
-
 res = []
-
-
 ts = time.time()
 
 if num == 2:
